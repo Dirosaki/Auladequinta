@@ -11,6 +11,7 @@ header{
     background-color: aliceblue;
 }
 
+
 .menu a{
     font-size: 15px;
     text-decoration: none;
@@ -23,35 +24,103 @@ header img{
     width: 40px;
     float: right;
     padding-right: 15px;
+    
 }
 
 li{
     list-style: none;
-    color: aliceblue;
+    color: black;
     font-weight: bold;
     padding: 10px;
+    font-size: 18pt;
+    
 }
 
 
 .exemplo li{
-    background-color: violet;
+    background-color: fuchsia;
     height: 200px;
     width: 200px;
-    display: block;
-    margin-left: 20px;
+    display: inline-block;
+    margin: 0;
+    
     
 }
+
+
 
 li:nth-child(2){
     background-color: #f4c141;
-    height: 200px;
+    height: 300px;
     width: 200px;
     
 }
 
-li:last-child{
+li:nth-child(3){
+    background-color: firebrick;
+    height: 400px;
+    width: 200px;
+}
+
+li:nth-child(4){
+    background-color: forestgreen;
+    height: 300px;
+    width: 200px;
+}
+
+li:nth-child(5){
     background-color: blue;
     height: 200px;
     width: 200px;
 }
+
+.exemplo{
+    text-align: center;
+    padding: 0;
+}
+
+.container ul{
+    display: flex;
+    border: white 2px;
+    
+    
+    
+}
+.fds li{
+    background-color: cornflowerblue;
+    width: 200px;
+    height: 200px;
+      
+    
+    
+    
+}
+
+.fds{
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    text-align: center;
+    
+    
+}
+
+#pudim{
+    position: sticky;
+    top: 80px;    
+    
+    
+}
+
+.yodown img{
+    width: 200px;
+    height: 160px;
+    position: relative;
+    bottom: 180px;
+    left: 80px;
+    justify-content: space-around;
+    
+    
+}
+
 
